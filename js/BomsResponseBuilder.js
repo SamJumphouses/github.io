@@ -16,9 +16,9 @@ function Clear()
    document.getElementById("usersinput").value= "";
    Bomsimage = HTMLBomsimage.replace("%bomspic%","Bom.jpg") 
    $("#bomsimage").empty().append(Bomsimage)
-   Yourimage = HTMLYourimage.replace("%yourpic%","You.jpg") 
-   $("#yourimage").empty().append(Yourimage)
-   
+//   Yourimage = HTMLYourimage.replace("%yourpic%","You.jpg") 
+//   $("#yourimage").empty().append(Yourimage)
+//   
    $("#response").empty().append("")
 }
 
