@@ -14,9 +14,9 @@ $("#usersinput").keyup(function(event){
 function Clear()
 {    
    document.getElementById("usersinput").value= "";
-   Bomsimage = HTMLBomsimage.replace("%bomspic%","bom.jpg") 
+   Bomsimage = HTMLBomsimage.replace("%bomspic%","Bom.jpg") 
    $("#bomsimage").empty().append(Bomsimage)
-   Yourimage = HTMLYourimage.replace("%yourpic%","you.jpg") 
+   Yourimage = HTMLYourimage.replace("%yourpic%","You.jpg") 
    $("#yourimage").empty().append(Yourimage)
    
    $("#response").empty().append("")
@@ -34,10 +34,10 @@ function ResponseFunction() {
     Bomsresponse = HTMLBomsresponse.replace("%data%",Bomsfullresponse)
     $("#response").empty().append(Bomsresponse) 
     
-    Bomsimage = HTMLBomsimage.replace("%bomspic%","bom2.jpg")
+    Bomsimage = HTMLBomsimage.replace("%bomspic%","Bom2.jpg")
     $("#bomsimage").empty().append(Bomsimage)  
     
-    //Yourimage = HTMLYourimage.replace("%yourpic%","you2.jpg") 
+    //Yourimage = HTMLYourimage.replace("%yourpic%","You2.jpg") 
     //$("#yourimage").empty().append(Yourimage)
 
 }
