@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>What would Bom say?</title>
+<!--        Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+<!--        Load the font        -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">    
+    </head>
+    
+ 
+    <body>
+        <div class="container">
+        
+<!--        Row 1 TITLE ROW -->
+            <div class="row">
+                <div class="col-md-12 text-uppercase"> 
+                    <h1 class="title-super text-center">What would Bom say</h1> 
+                </div>
+            </div>
+            
+<!--        Row 2 DIVIDER LINE -->        
+        <div class="row">
+            <div class="col-md-12"> 
+                <hr>
+            </div>
+        </div>
+            
+            
+<!--        Row 3 Images and Input and Response in between -->
+        <div class="row" style="white-space:nowrap;overflow:hidden;">
+            <div class="col-md-4" id="yourimage">
+                <h2 class="title text-center text-thin">You</h2> 
+                <img class="img-responsive" src="./images/you.jpg" alt="You"/>
+            </div>
+            
+<!--        INPUT AND RESPONSE -->
+            <div class="col-md-4 answerandresponse">
+<!--                Here, an entry textbox (balloon) in which the user can type input-->
+                <input type="text" value="(type an adjective here)" onClick="Clear();" id="usersinput" />            
+<!--                Here, a text balloon with Bom's response, generated after the user presses enter -->
+                <div class="text-thin text-right" id="response" ></div>
+            </div>
+                        
+            <div class="col-md-4" id="bomsimage">
+                <h2 class="title text-center text-thin">Bom</h2> 
+                <img class="img-responsive" src="./images/bom.jpg" alt="Bom"/>
+            </div>
+        </div>              
+        </div> 
+    
+    <script src="js/jQuery.js"></script>
+    <script src="js/helper.js"></script>
+    <script src="js/BomsResponseBuilder.js"></script>
+
+        
+    </body>
+</html>

@@ -1,0 +1,52 @@
+/*
+ Developing - Guidelines
+*{
+    border: 1px solid orange !important;
+}
+*/
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: darkgrey;
+    font-weight: 300;
+}
+
+/*TEXT ETC*/
+.text-thin{
+font-weight: 100;
+font-size: 25px;
+}
+
+.title-super{
+font-size: 60px;
+color: #716c6c;
+}
+
+.answerandresponse{
+margin-top: 60px;
+}
+
+/*Blinking cursor at input text field*/
+input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightgray;
+  margin:5px; 
+  font-size: 25px;
+}
+
+/*
+input {
+  animation: blink-empty 1s infinite;
+    border: none;
+    border-left: transparent solid 5px;
+    border-bottom: 1px solid lightgray;
+    margin:5px;
+    font-size: 25px; 
+}
+@keyframes blink-empty {
+  50% {border-left: 1px solid gray;}
+}
+
+
+*/
