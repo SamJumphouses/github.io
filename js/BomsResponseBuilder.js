@@ -10,6 +10,14 @@ $("#usersinput").keyup(function(event){
     }
 });
 
+// On phones
+$("#usersinput").focusout(function(event) {
+   // if(event.keyCode == 13){
+        ResponseFunction()
+    //}
+});
+
+
 // Clearing out text box on mouse click and resetting image
 function Clear()
 {    
