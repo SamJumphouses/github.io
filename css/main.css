@@ -47,6 +47,29 @@ input {
 @keyframes blink-empty {
   50% {border-left: 1px solid gray;}
 }
-
-
 */
+
+
+/*IMAGES*/
+
+
+.row {
+/*
+    white-space:nowrap;
+    overflow:hidden;
+*/
+/*    width:100%;*/
+}
+
+/*
+    .col-md-4{
+    width:33%;
+    }
+*/
+
+@media only screen 
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (orientation: portrait) {
+    background-color:blue;    
+    }
